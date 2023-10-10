@@ -1,0 +1,99 @@
+/* Reset de estilos para el cuerpo de la página */
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Oswald&display=swap');
+
+body {
+    background-color: #91BEEB;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0056b3;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el input de ciudad */
+#cityInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el botón de obtener el clima */
+#fetchWeather {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+#fetchWeather:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para la sección de datos del clima */
+#weatherData {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
